@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<style>
+
+			/*For 601 to more */
+			@media only screen and (min-width: 601px) {
+			  body{
+				background:red; 
+			  }
+			  .box1{
+				background:white; width:49%; 
+				margin-right:1px; float:left; 
+			  }
+			  .box2{
+				background:white; margin-left:1px; width:49%; float:left;
+			  }
+			}
+
+			/*For 601 to less */
+			@media only screen and (max-width: 600px) {
+			  body{
+				background:yellow; 
+			  }
+			  .box1{
+				background:white; width:100%; 
+			  }
+			  .box2{
+				background:white; width:100%; 
+			  }
+			}
+		</style>
+	</head>
+	<body>
+
+		<div class="box1">
+			this is out paragraph  1
+		</div>
+		<div class="box2">
+			this is out paragraph  2
+		</div>
+		
+	</body>
+</html>

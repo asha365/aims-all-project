@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css"> 
+		.container{
+			width:80%; 
+			margin:100px auto; 
+		}
+		.line1,.line2,.line3,.line4,.line5,.line6,.line7{
+			border:1px solid green; 
+			height:0px; width:15%; 
+			float:left; 
+		}
+		.line1{ animation: line-chart-anim1 3s; }
+		.line2{ animation: line-chart-anim2 6s; }
+		.line3{ animation: line-chart-anim3 9s;  }
+		.line4{ animation: line-chart-anim4 12s; }
+		.line5{ animation: line-chart-anim5 15s; }
+		.line6{ animation: line-chart-anim6 18s; }
+		.line7{ animation: line-chart-anim7 21s; }
+		
+		.circle1,.circle2,.circle3,.circle4,.circle5,.circle6,.circle7{
+			width:10px; height:10px; border:1px solid green; 
+			margin-top:-5px; 
+			float:left; 
+			border-radius:50%; 
+			 
+		}
+		@keyframes background-anim{
+			80%{background:lightgreen; }
+			100%{background:green; }
+		}
+		
+		.circle1{animation: line-chart-anim1 3s; animation:background-anim 3s;}
+		.circle2{animation: line-chart-anim2 6s; animation:background-anim 6s;}
+		.circle3{animation: line-chart-anim3 9s; animation:background-anim 9s;}
+		.circle4{animation: line-chart-anim4 12s; animation:background-anim 12s;}
+		.circle5{animation: line-chart-anim5 15s; animation:background-anim 15s;}
+		.circle6{animation: line-chart-anim6 18s; animation:background-anim 18s;}
+		.circle7{animation: line-chart-anim7 21s; animation:background-anim 21s;}
+		
+		@keyframes line-chart-anim1{ 0%{ opacity:0; } 20%{ opacity:0.2; } 40%{ opacity:0.4;} 60%{ opacity:0.6;}
+			80%{ opacity:0.8;} 100%{ opacity:1;} }
+		@keyframes line-chart-anim2{ 0%{ opacity:0; } 20%{ opacity:0.2; } 40%{ opacity:0.4;} 60%{ opacity:0.6;}
+			80%{ opacity:0.8;} 100%{ opacity:1;} }
+		@keyframes line-chart-anim3{ 0%{ opacity:0; } 20%{ opacity:0.2; } 40%{ opacity:0.4;} 60%{ opacity:0.6;}
+			80%{ opacity:0.8;} 100%{ opacity:1;} }
+		@keyframes line-chart-anim4{ 0%{ opacity:0; } 20%{ opacity:0.2; } 40%{ opacity:0.4;} 60%{ opacity:0.6;}
+			80%{ opacity:0.8;} 100%{ opacity:1;} }
+		@keyframes line-chart-anim5{ 0%{ opacity:0; } 20%{ opacity:0.2; } 40%{ opacity:0.4;} 60%{ opacity:0.6;}
+			80%{ opacity:0.8;} 100%{ opacity:1;} }
+		@keyframes line-chart-anim6{ 0%{ opacity:0; } 20%{ opacity:0.2; } 40%{ opacity:0.4;} 60%{ opacity:0.6;}
+			80%{ opacity:0.8;} 100%{ opacity:1;} }
+		@keyframes line-chart-anim7{ 0%{ opacity:0; } 20%{ opacity:0.2; } 40%{ opacity:0.4;} 60%{ opacity:0.6;}
+			80%{ opacity:0.8;} 100%{ opacity:1;} }
+
+	</style>
+</head>
+<body>
+	 
+	 <div class="container">
+		<div class="circle1"></div>
+		<div class="line1"></div>
+		<div class="circle2"></div>
+		<div class="line2"></div>
+		<div class="circle3"></div>
+		<div class="line3"></div>
+		<div class="circle4"></div>
+		<div class="line4"></div>
+		<div class="circle5"></div>
+		<div class="line5"></div>
+		<div class="circle6"></div>
+		<div class="line6"></div>
+		<div class="circle7"></div>
+	 </div>
+	 
+</body>
+</html>

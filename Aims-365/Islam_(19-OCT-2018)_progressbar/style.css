@@ -1,0 +1,33 @@
+/* Set the background color of body to tan */
+.wrapper {
+  background-color: tan;
+}
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 1440px) {
+	.wrapper{ } 
+	.box-left{
+		width:30%; background:purple; color:white; 
+		min-height:200px; float:left; 
+	}
+	.box-right{
+		width:70%; background:lightgreen; color:white; 
+		min-height:200px; float:left;
+	}
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+	.wrapper{ } 
+	.box-left{
+		width:100%; background:purple; color:white; 
+		min-height:200px;
+	}
+	.box-right{
+		width:100%; background:lightgreen; color:white; 
+		min-height:200px;
+	}
+	
+}

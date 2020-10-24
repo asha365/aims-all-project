@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css"> 
+		.eye-shape1{
+			height:300px; 
+			width:150px;
+			border:2px solid black; 
+			border-radius:50%; 
+			transform:rotate(-10deg);
+		}
+		.eye-shape2{
+			height:300px; 
+			width:150px;
+			border:2px solid black; 
+			border-radius:50%; 
+			transform:rotate(10deg);
+			margin-top:-300px; 
+			margin-left:170px; 
+		}
+		.eye{
+			height:120px; 
+			width:50px;
+			border:2px solid black; 
+			border-radius:50%; 
+			background:black; 
+			margin-top:168px;
+			margin-left:auto; 
+			margin-right:auto; 
+			
+			animation:anim 3s infinite; 
+		}
+		
+		.face{
+			padding:2%; 
+			width:350px;
+			margin:100px auto; 
+		}
+		
+		@keyframes anim{
+			0%{margin-top:168px; }
+			20%{margin-top:100px; }
+			40%{margin-top:90px; }
+			80%{margin-top:100px; }
+			100%{margin-top:168px; }
+		}
+	</style>
+</head>
+<body>
+<div class="face">
+	<div class="eye-shape1">
+		<div class="eye"></div>
+	</div>
+	<div class="eye-shape2">
+		<div class="eye"></div>
+	</div>
+</div>	
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css"> 
+		*{ margin:0px; padding:0px; }
+		.wrapper{
+			width:80%; margin:0px auto; 
+		}
+		h1{ margin:4vh 0; }
+		.menu{}
+		.menu .item{	 
+			color:white; 
+			width:20%; 
+			float:left; 
+			margin:1% 0%; 
+		}
+		.menu .item a{ 
+			color:white;
+			display:block; 
+			text-align:center; 
+			text-decoration:none; 
+			font-weight:bold; 
+			font-size:18px; 
+			background:teal;
+			padding:4% 0%;
+		}
+		.menu .item a:hover{
+			background:orange;
+			transition-duration:1s; 
+		} 
+		
+		.item .sub-item{
+			display:none; 
+			transition-duration:4s;
+		}
+		.item:hover .sub-item{
+			display:block; transition-duration:4s;
+		}
+		
+		.link1:hover{
+			height:50px;
+			line-height:50px; 
+			transform:rotate(20deg);
+		}		
+		.link2:hover{
+			height:50px;
+			line-height:50px; 
+			transform:rotate(-20deg);
+		}
+	</style>
+	
+</head>
+<body>
+	<div class="wrapper"> 
+		<h1>DropDown &mdash; Menu</h1><hr/>
+		<!--#==================================#-->
+			<div class="menu">
+				<div class="item">
+					<a href="">Home</a>
+				</div>
+				<div class="item">
+					<a href="">About</a>
+				</div>
+				<div class="item">
+					<a href="">Dropdown</a>
+					<div class="sub-item">
+						<a href="" class="link1">link 1</a>
+						<a href="" class="link2">link 2</a>
+						<a href="" class="link1">link 3</a>
+						<a href="" class="link2">link 4</a>
+					</div>
+				</div>
+				<div class="item">
+					<a href="">Dropdown</a>
+				</div>
+				<div class="item">
+					<a href="">Dropdown</a>
+					<div class="sub-item">
+						<a href="">link 1</a>
+						<a href="">link 2</a>
+						<a href="">link 3</a>
+						<a href="">link 4</a>
+					</div>
+				</div>
+			</div>
+		<!--#==================================#-->
+		
+	</div>
+</body>
+</html>

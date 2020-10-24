@@ -1,0 +1,42 @@
+.line-shapes1{
+	width:80%; margin:100px auto; 
+}
+.oneLineWide{
+	width:100%;
+	background:red; 
+	height:0px; 
+}
+.diamond1,.diamond2,.diamond3{
+	width:20px; height:20px;  
+	transform:rotate(45deg); 
+}
+.diamond1{ margin-left:0%; margin-top:-10px; }
+.diamond2{ margin-left:49%;margin-top:-20px;}
+.diamond3{ margin-left:100%;margin-top:-20px; }
+
+/*color with lot of color..*/
+.red{ background:red; }
+.green{ background:green; }
+.lightgreen{ background:lightgreen; }
+.orange{ background:orange; }
+.purple{ background:purple; }
+.yellow{ background:yellow; }
+.teal{ background:teal; }
+.black{ background:black; }
+.gray{ background:gray; }
+.lightblue{ background:lightblue; }
+.blue{ background:blue; }
+.crystalblue{ background:crystalblue; }
+
+.red-border{ border:1px solid red; }
+.green-border{  border:1px solid green; }
+.lightgreen-border{ border:1px solid lightgreen; }
+.orange-border{  border:1px solid orange; }
+.purple-border{  border:1px solid purple; }
+.yellow-border{  border:1px solid yellow; }
+.teal-border{  border:1px solid teal; }
+.black-border{  border:1px solid black; }
+.gray-border{  border:1px solid gray; }
+.lightblue-border{  border:1px solid lightblue; }
+.blue-border{  border:1px solid blue; }
+.crystalblue-border{  border:1px solid crystalblue; }

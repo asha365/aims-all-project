@@ -1,0 +1,108 @@
+/*----------------------------------------*/
+/*-------Start#Header Style---------------*/
+/*----------------------------------------*/
+.section-header{
+	background:#5098A4; 
+}
+.section-header .site-title{
+	font-family:Gill Sans Ultra Bold Condensed;
+	color:#B0E1E2; 
+	font-weight:bold; 
+	font-size:2em; 
+}
+.menu-item{
+	color:#fff; text-transform:uppercase; 
+}
+.menu-item:hover{
+	opacity:0.8; 
+}
+/*----------------------------------------*/
+/*-------End#Header Style-----------------*/
+/*----------------------------------------*/
+.section-slider{}
+.slider-context{ }
+.btn-more{
+	background:none; border:1px solid white; 
+	border-radius:0px; color:white; 
+	font-weight:blod; 
+}
+.btn-more:hover{
+	background:rgba(0,0,0,0.5); 
+	transition-duration:2s; color:white; 
+}
+
+/*----------------------------------------*/
+/*-------End#service Style-----------------*/
+/*----------------------------------------*/
+.service-content{
+	padding:90px 0px; text-align:center;
+}
+
+.service-content span{
+	font-size:28px; 
+	font-family:Bahnschrift Light; 
+}
+.service-content p{
+	margin:20px 0; 
+	font-size:14px; 
+	font-family:Bahnschrift Light; 
+}
+
+.service-content i{
+	font-size:3.2em; 
+	margin:20px 0px; 
+	color:teal; 
+}
+
+/*----------------------------------------*/
+/*-------End#profile Style-----------------*/
+/*----------------------------------------*/
+.section-profile{
+	background:#02CF8A; 
+	padding:100px 0px;
+}
+.profile-content{
+	
+}
+
+.prof-left{ float:left; margin-right:3%; }
+.prof-right{ float:left; }
+.prof-right span{ font-size:28px; font-weight:bold; color:white; }
+.prof-right i{ font-size:8em; color:gray;  }
+.prof-context p{ text-align:justify; color:#EFFFF2;  }
+
+
+/*----------------------------------------*/
+/*-------End#contact Style-----------------*/
+/*----------------------------------------*/
+
+.section-contact{}
+.contact-form{
+	height:500px; 
+	background:rgba(0,0,0,0.5); 
+	margin-top:-505px; 
+	position:relative;
+}
+
+form{
+	background:rgba(250,250,250,0.2); 
+	padding:10%; 
+	border-radius:50%; 
+	margin:3% 0%; 
+	padding-top:20%; 
+}
+
+.btn-circle{
+	border-radius:50%;
+}
+.btn-circle i{ font-size:4em; }
+
+
+
+.section-footer{
+		background:#02CF8A; color:white; 
+		font-size:1.8em; 
+		text-align:center; 
+}
+
+

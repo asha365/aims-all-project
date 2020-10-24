@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css"> 
+
+		.box{
+			height:1px; 
+			width:600px; 
+			background:black; 
+			margin:100px auto; 
+		}
+		.circle{
+			width:10px; height:10px; border:1px solid black; 
+			background:white; 
+			margin:0px auto; 
+			border-radius:50%;
+			
+		}
+		.cir1{margin-top:-107px; margin-left:400px; }
+		.cir2{margin-top:-12px;margin-left:430px;}
+		.cir3{margin-top:-12px;margin-left:460px;}
+		.cir4{margin-top:-12px;margin-left:490px;}
+		
+		.shape2{
+			height:0px; width:200px; 
+			border-top:100px solid black; 
+			border-left:100px solid transparent; 
+			border-right:100px solid transparent;
+			border-radius:100% 100% 0% 0%; 
+		}
+
+		.ind{
+			height:80px; width:4px; background:red; 
+			margin-left: 200px; 
+			margin-top:-80px;
+			animation: ind-pos 5s infinite; 
+		}
+		@keyframes ind-pos{
+			0%{margin-left: 100px; }
+			10%{margin-left: 120px;}
+			20%{margin-left: 140px;}
+			30%{margin-left: 160px;}
+			40%{margin-left: 180px;}
+			50%{margin-left: 200px;}
+			60%{margin-left: 220px;}
+			70%{margin-left: 240px;}
+			80%{margin-left: 260px;}
+			90%{margin-left: 280px;}
+			100%{margin-left: 100px;}
+		}
+	</style>
+</head>
+<body>
+	 
+	 <div class="box"> 
+		
+	 </div>
+	 <div class="circle cir1"></div>
+	 <div class="circle cir2"></div>
+	 <div class="circle cir3"></div>
+	 <div class="circle cir4"></div>
+	 
+	 <HR/>
+	 <div class="shape2"></div>
+	 <div class="ind"></div>
+	 <hr/>
+	 
+	 
+	 <div style="
+		border-left:100px solid red; width:200px; 
+		border-top:10px solid red; 
+		border-right:100px solid red; 
+		border-bottom:10px solid green; 
+		height:150px;
+		line-height:50px; 
+		">ok this is our dynamic shapes</div>
+	 
+</body>
+</html>

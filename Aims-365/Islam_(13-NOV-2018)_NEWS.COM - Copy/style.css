@@ -1,0 +1,63 @@
+/*
+	Theme Name: AIMS365
+	Theme URI: http://aims365.com/
+	Theme Author: Developer teams of AIMS-365
+	Author URI: https://github.com/ISLAM59 
+	Description: News type web theme design only. 
+	Tags: News, blogs, journal, magazine etc. 
+*/
+
+.section-header{
+	min-height:13vh;
+	background:#002060; 
+}
+.header-left,.header-right{
+	min-height:13vh; 
+	line-height:9vh; 
+}
+.header-left h1{
+	color:#F2F2F2; font-weight:bold; 
+}
+.header-left{
+	background:#002060; 
+}
+.header-right{
+	line-height:13vh;
+	text-align:right; 
+}
+.header-right img{
+	width:30px; height:30px; 
+}
+.header-right img:hover{
+	opacity:0.5; 
+}
+.menu-item{
+	color:white; 
+}
+.section-headline{
+	background-color:#339966; 
+	line-height:25px; height:25px; 
+}
+.section-headline marquee{}
+.section-headline ul{}
+.section-headline ul li{
+	display:inline; line-height:15px; 
+	color:white; font-weight:bold; 
+	margin-left:10px; 
+}
+
+.carousel-caption:hover{
+	opacity:0.9; 
+}
+.carousel-caption{
+	opacity:0; 
+}
+
+
+
+
+
+
+
+
+

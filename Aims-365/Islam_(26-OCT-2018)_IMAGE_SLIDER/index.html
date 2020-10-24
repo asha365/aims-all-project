@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css">
+		.wrapper{
+			
+		}	
+		.slider{
+			width:100%; 
+			overflow:hidden; 
+			height:400px; background:purple; 
+			margin-bottom:0px; position:relative; 
+		}
+		.slider .image-slider{
+			width:500%;
+			margin-left:0px; 
+			animation:slider-image 20s infinite; 
+		}
+		.slider .image-slider img{
+			width:20%;
+			height:400px; 
+			float:left; 
+			animation:rotate-spin 2s infinite; 
+		}
+		@keyframes slider-image{
+			0%{margin-left:-0%;}
+			20%{margin-left:-100%; }
+			40%{margin-left:-200%;}
+			60%{margin-left:-300%; }
+			80%{margin-left:-400%;}
+			100%{margin-left:-0%; }
+		}
+		.overley{
+			height:400px;
+			width:100%; 
+			
+			margin-top:-400px;
+			position:relative; 
+			font-size:4em; text-align:center; line-height:400px; color:#d7d7d7; 
+			animation:color-anim 3s infinite; 
+		}
+		@keyframes color-anim{
+			0%{background:rgba(200,000,100,0.5); }
+			50%{background:rgba(000,000,100,0.5); }
+			100%{background:rgba(200,000,100,0.5); }
+			50%{background:rgba(000,000,100,0.5); }
+			0%{background:rgba(200,000,100,0.5); }
+		}
+		@keyframes rotate-spin{
+			0%{ transform:rotate(0deg); }
+			50%{ transform:rotate(45deg); }
+			100%{ transform:rotate(0deg); }
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+<!-- ---------------------------------------------------- -->
+<div class="slider">
+	<div class="image-slider">
+		<img src="01.jpg" alt="n/a" class="image-item"/>
+		<img src="02.jpg" alt="n/a" class="image-item"/>
+		<img src="03.jpg" alt="n/a" class="image-item"/>
+		<img src="04.jpg" alt="n/a" class="image-item"/>
+		<img src="05.jpg" alt="n/a" class="image-item"/>
+	</div>
+</div>
+	<div class="overley">
+		Joy Bangla !
+	</div>
+<!-- ---------------------------------------------------- -->		
+	</div>	
+</body>
+</html>

@@ -1,0 +1,74 @@
+/**/
+*{
+	margin:0px; 
+	padding:0px; 
+}
+body{
+	background:#F87F0A;	
+	animation: backanim 2s infinite; 
+}
+
+@keyframes backanim{
+	0%{ background:#000000;	}
+	20%{background:#703a3b;}
+	40%{background:#703a3b;}
+	60%{background:#a53638;}
+	80%{background:#ce1c1f;}
+	100%{background:#f7070b; }
+	80%{background:#ce1c1f;}
+	60%{background:#a53638;}
+	40%{background:#703a3b;}
+	20%{background:#703a3b;}
+	0%{ background:#000000;	}
+}
+
+.wrapper{
+	padding:1%;
+}
+.content{
+	background:#FFFFFF; 
+	width:98%; 
+	height:95vh; 
+	margin:0px auto;
+}
+.header{
+	width:80%; 
+	margin:1px auto; 
+	padding:1%;
+	text-align:center; 
+	color:black; 
+	border-bottom:3px dotted gray; 
+	animation: dottedanimTop 1s infinite;
+}
+.header h1{
+	font-size:3em; 
+}
+.header img{
+	width:8%; 
+}
+.body-content{
+	width:80%; 
+	margin:1px auto; 
+}
+.box{ 
+	margin-top:30px; 
+	width:24.5%; 
+	float:left; 
+	height:300px;
+	text-align:center; 
+}
+.border{
+	border-right:10px dotted black; 
+	animation: dottedanim 1s infinite; 
+}
+
+@keyframes dottedanim{
+	0%{ border-right:10px dotted lightgreen;  }
+	50%{border-right:5px dotted red; }
+	100%{border-right:10px dotted lightgreen; }
+}
+@keyframes dottedanimTop{
+	0%{ border-bottom:10px dotted lightgreen;  }
+	50%{border-bottom:5px dotted red; }
+	100%{border-bottom:10px dotted lightgreen; }
+}

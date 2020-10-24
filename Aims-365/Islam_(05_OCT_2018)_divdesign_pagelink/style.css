@@ -1,0 +1,90 @@
+body{
+	background: #000;
+}
+.first-div{
+	margin-top:3px; 
+	background:yellow; 
+	box-shadow: 0px 0px 2px red; 
+}
+
+.dwin-box{
+	width:30%; 
+	min-height: 20vh; 
+	margin:3px solid red;
+	background: #d0d0d0; 
+	color:purple;
+	font-size:3em; 
+	text-shadow:0px 0px 30px green;
+}
+
+.menulink{
+	text-decoration: none; 
+	color:white; 
+	background: purple; 
+	padding:1% 5%;
+}
+.menulink:hover{
+	color:white; 
+	padding:1% 10%;	
+	background: teal;
+	transition:2s;
+	transform:rotate('90deg');
+}
+
+
+
+.secrate-box-of-SAIFUL a{
+	text-decoration: none; 
+	background: orange;
+	color:white; 
+	display: block;
+	width:200px;
+	height:200px;
+	margin:10px;
+	text-align: center; 
+	line-height: 200px;
+	float:left;
+	font-size:2em; 
+	box-shadow: 0px 0px 3px black;
+	animation: spinbox 2s infinite; 
+}
+.secrate-box-of-SAIFUL a:hover{
+	width:200px;
+	height:200px;
+	transition:1s;
+	border-radius:50%; 
+	background: teal;
+	color:white;  
+	font-size:2.5em;
+	box-shadow: 0px 0px 13px black;
+	
+}
+
+
+@keyframes spinbox{
+	0%{ box-shadow: 0px 10px 13px black;background: red; }
+	20%{ box-shadow: 0px 10px 13px lightblue; background: yellow;}
+	40%{ box-shadow: 0px 10px 13px blue; background: orange;}
+	60%{ box-shadow: 0px 10px 13px orange; background: black;}
+	80%{ box-shadow: 0px 10px 13px red; background: red;}
+	100%{box-shadow: 0px 10px 13px black; background: black; }
+	80%{ box-shadow: 0px 10px 13px red; background: blue; }
+	60%{ box-shadow: 0px 10px 13px orange; background: purple;}
+	40%{ box-shadow: 0px 10px 13px blue; background: gray;}
+	20%{ box-shadow: 0px 10px 13px lightblue;background: white;}
+	0%{box-shadow: 0px 10px 13px black; background: red;}
+}
+/*
+@keyframes spinbox{
+	0%{transform:rotate(0deg); background: red;}
+	20%{transform:rotate(72deg); background: purple;}
+	40%{transform:rotate(144deg); background: orange;}
+	60%{transform:rotate(216deg); background: green;}
+	80%{transform:rotate(288deg); background: lightblue;}
+	100%{transform:rotate(360deg); width:250px;}
+	80%{transform:rotate(288deg); width:300px;}
+	60%{transform:rotate(216deg); width:400px;}
+	40%{transform:rotate(144deg); }
+	20%{transform:rotate(72deg); }
+	0%{transform:rotate(0deg); }
+}*/

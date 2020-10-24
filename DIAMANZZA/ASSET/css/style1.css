@@ -1,0 +1,86 @@
+.top-menu {  }
+
+.icon {padding: 1%; border: 1px solid black;}
+
+.menu-items{background: teal; display: none; margin-top: 2px;}
+
+.top-menu:hover .menu-items{display: block; z-index: 999; position: absolute; 
+	width: 83.4%;}
+
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+
+.dai_header_section{position: relative;}
+
+.Dai_diamanzza_name{  }
+
+.Dai_diamanzza_name span {font-family: Chiller; font-size: 90px;
+ font-weight: bold;color: #808080;padding-left: 0px;}
+
+.Dai_diamanzza_name p {font-family: Times New Roman; font-size: 12px; 
+	color: #808080;}
+
+.Dia_icon_m {  }
+
+.Dia_icon_m img {width: 100%; margin-top: -55px; height: 260px;}
+
+}
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+
+.dai_header_section {position: relative;}
+
+.Dai_diamanzza_name {  }
+
+.Dai_diamanzza_name span {font-family: Chiller; font-size: 80px;
+	color: #808080; padding-left: 0px;}
+
+.Dai_diamanzza_name p { font-family: Times New Roman; font-size: 12px; 
+	color: #808080;}
+
+.Dia_icon_m {text-align: center;}
+
+.Dia_icon_m img {width: 80%; height: 300px; margin-top: -20px;}
+
+}
+
+.about_name span {font-family: Chiller; font-size: 48px; font-weight: bold;
+	color: #808080; padding-left: 0px;}
+
+.about_name p {font-family: Times New Roman; font-size: 12px; color: #808080;text-align:justify;}
+
+.quality span {font-family: Times New Roman; font-size: 20px; color: #808080;
+	font-weight: bold;}
+
+.quality_image {}
+.quality_image img {width: 100%; height:250px;}
+
+.quality li {font-family: Times New Roman; font-size: 12px; color: #808080;}
+
+.contact_us span {font-family: Chiller; font-size: 48px; color: #808080;
+	font-weight: bold;}
+
+.contact_branch span {font-weight: bold;color: black;}
+
+.contact_branch p {color: black;}
+
+.message_us span {font-family: Chiller; font-size: 48px; color: #808080;
+	font-weight: bold;}
+
+.message_form {background: #FFF2CC; color: #808080;}	 				
+
+
+.Dia_footer_m {background: #000000; text-align: center; padding-bottom: 3px;
+	padding-top: 10px;}
+
+.Dia_footer_m p {font-family: Calibri (Body); font-size: 11px; color: #fff;}
+
+.from_dia_fa{
+	background-color:#FFF2CC;
+	border-radius:0px;
+}
+.fatema_button{
+	background-color:#000;color: #fff; padding-right: 50px;padding-left: 50px; 
+	margin-top:2%;margin-bottom:2%;
+}

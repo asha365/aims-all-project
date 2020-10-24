@@ -1,0 +1,139 @@
+/* header-section start */
+.contact{
+	padding:10px;
+	background:url(../img/1.png);
+	margin-bottom:0px;
+}.section-contact h4{
+	color:#fff;
+}
+/* header-section end */
+/* menu-section start */
+.menu-section{
+	border-bottom:1px solid #710C46;
+}
+/*If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+
+.item1{
+	padding:0px 10px;
+	margin-left:20px;
+}
+.menu-overflow-section{
+	height:400px;
+	margin-top:-400px;
+	position:relative;
+	text-align:right;
+}
+}
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+
+.item1{
+	padding:0px 10px;
+}
+.menu-overflow-section{
+	height:400px;
+	margin-top:-400px;
+	position:relative;
+	text-align:center;
+}
+}
+/*midea query end*/
+.menu-overflow{
+	background:#590A3C;
+	height:20px;
+	margin-top:-20px;
+	position:relative;
+	border-bottom:4px dotted orange;
+}
+/* menu-section end */
+
+/*menu-overflow-section start */
+.jumbotron h2{
+	font-weight:bold;
+	color:#8C1C5B;padding-bottom:20px;
+}
+.jumbotron h4{
+	font-weight:bold;
+	color:#F9B27B;
+}
+.jumbotron p{
+	font-weight:bold;
+	color:#E08D87;
+	font-size:14px;
+}
+.jumbotron p a{
+	font-weight:bold;
+	background:#8A2561;
+}
+.jumbotron p a:hover{
+	font-weight:bold;
+	background:#8A2561;
+}
+/*menu-overflow-section end */
+/*section start*/
+.section-spa{
+	background:url(../img/df.jpg);
+	border-bottom:4px dotted #8C1C5B;
+}
+/*section end*/
+/*section-spa start*/
+.section-spa h2{
+	font-weight:bold;
+	color:#8C1C5B;
+	padding:10px;
+}
+.section-spa p{
+	font-weight:bold;
+	color:#8C1C5B;
+	padding:10px;
+	text-align:justify
+}
+.box p{
+	color:#892760;
+}
+.box h6{
+	color:#892760;
+	font-weight:bold;
+}
+.box button{
+	Background:#892760;
+	font-weight:bold;
+	color:#fff;
+}
+.box button{
+	Background:#892760;
+	font-weight:bold;
+	color:#fff;
+}
+.box button:hover{
+	Background:#892760;
+	font-weight:bold;
+	color:#fff;
+}
+.section_dolor{
+	background:url(../images/ww.png);
+	min-height:150px;
+}
+.section_dolor-overflow11{
+	Background:#892760;
+	min-height:150px;
+	margin-top:-150px;
+	opacity:0.8; 
+	position:relative;
+
+}
+.section_dolor_spa{
+	background:url(../images/ww.png);
+	min-height:150px;
+}
+.section_dolor_spa_overflow{
+	Background:red;
+	min-height:150px;
+	margin-top:-150px;
+	opacity:0.8;
+	position:relative;
+
+}
+/*section-spa end*/

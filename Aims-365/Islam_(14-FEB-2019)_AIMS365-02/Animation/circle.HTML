@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Animation &mdash; </title>
+		<style>
+			body{
+				background:black; 
+			}
+			.circle{
+				width:300px; 
+				height:300px; 
+				background:red; 
+				border-radius:50%; 
+				border:40px solid black; 
+				animation:border-anim 4s infinite; 
+			}	
+			
+			@keyframes border-anim{
+				0%{
+					border-top:40px solid transparent; transform:skew(0deg); 
+					border-right:40px solid transparent; 
+					border-bottom:40px solid transparent; 
+					border-left:40px solid transparent; 
+				}
+				25%{
+					border-top:40px solid green; transform:skew(10deg); 
+					border-right:40px solid transparent; 
+					border-bottom:40px solid transparent; 
+					border-left:40px solid transparent; 
+				}
+				50%{
+					border-top:40px solid green; transform:skew(20deg); 
+					border-right:40px solid green; 
+					border-bottom:40px solid transparent; 
+					border-left:40px solid transparent; 
+				}
+				75%{
+					border-top:40px solid green; transform:skew(10deg); 
+					border-right:40px solid green; 
+					border-bottom:40px solid green; 
+					border-left:40px solid transparent; 
+				}
+				100%{
+					border-top:40px solid green; transform:skew(0deg); 
+					border-right:40px solid green; 
+					border-bottom:40px solid green; 
+					border-left:40px solid green; 
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="circle"> </div>
+	</body>
+</html>

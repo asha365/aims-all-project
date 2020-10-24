@@ -1,0 +1,51 @@
+.template-body{
+	background:orange; 
+}
+/*header / top menu style*/
+.navbar-default{
+	border:0px; border-radius:0px; 
+	margin-bottom:0px; background:#002060; 
+	font-weight:bold;
+}
+.menu-item{  } 
+/*------------------------------*/
+
+/*slider section style*/
+.slider-right{  }
+/*------------------------------*/
+
+/*line-circle-box style */
+.line-circle-box{ padding-top:20px; padding-bottom:20px; background:#F2F2F2; }
+.circle{ width:20px; height:20px; background:#00B0F0; border-radius:50%;  float:left;}
+.line1{ width:80%; height:0px; border:2px solid #00B0F0; float:left; margin-top:8px; }
+
+.top-line-circle1{ width:30%; height:20px;  margin:0px auto; }
+.top-line-circle2{ width:50%; height:20px;  margin:0px auto;}
+/*-------------------------------------------------------------*/
+
+/*admin profile box style*/
+.section-admin-area{ background:#F8CBAD; }
+.admin-left{ padding-top:100px; min-height:400px; }
+.admin-right{ background:#FFE699;  }
+.thumbnail{ border:0px; border-radius:0px; padding:0px;  }
+.caption{ background:#002060; color:white; text-align:center;  }
+.caption h4{color:white; }
+/*----------------------------------------------------------------*/
+
+/*section-portfolio style */
+.section-portfolio{
+	background:purple; padding-top:20px; padding-bottom:20px;
+}
+
+/*----------------------------------------------------------------*/
+/*section-portfolio style */
+.footer{background:#002060;text-align:center;color:white;padding:2%;}
+
+
+
+
+
+
+
+
+
